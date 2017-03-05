@@ -1,5 +1,5 @@
 import {Service, Inject } from "angular1_typescript_decorators/Decorators";
-import Setting from "./settingsService";
+import Setting from "../settingsService/settingsService";
 
 @Service("App", "menuService")
 @Inject("settings")

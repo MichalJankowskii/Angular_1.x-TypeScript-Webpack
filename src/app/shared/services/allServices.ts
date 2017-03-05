@@ -1,2 +1,0 @@
-import "./menuService";
-import "./settingsService";
