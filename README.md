@@ -18,13 +18,6 @@ To run tests
 
 ```sh
 npm test
-```
-
-Coverage
-
-```sh
-open reports/coverage/index.html
-```
 
 Others:
 - use angular.mock.module("moduleName") since module is keyword in typescript
@@ -44,7 +37,6 @@ npm run build
 
 - Build basic Angular app with webpack
 - sass support
-- Coverage report
 - Typescript support
 - ES6 modules support
 - Running tests in PhantomJS
