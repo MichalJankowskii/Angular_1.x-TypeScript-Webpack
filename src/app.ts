@@ -13,7 +13,8 @@ const externalModulesNames: Array<any> = [
   "ngAnimate",
   "ngSanitize",
   "LocalStorageModule",
-  "App.Header"
+  "App.Header",
+  "App.Footer"
 ];
 var baseModule: angular.IModule = angular.module("App", externalModulesNames);
 baseModule.config(provideState);
