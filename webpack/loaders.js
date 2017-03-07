@@ -1,4 +1,13 @@
 module.exports = [
+    {
+		test: /\.ts$/,
+        enforce: 'pre',
+        loader: 'tslint-loader',
+		options: {
+			 emitErrors: true,
+			 failOnHint: true,
+		}
+    },
     {test: /\.ts(x?)$/, loader: 'ts-loader'},
     {
         test: /\.css$/,
