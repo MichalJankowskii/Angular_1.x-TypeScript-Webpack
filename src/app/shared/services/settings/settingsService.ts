@@ -4,15 +4,18 @@ import { ISettingsService } from "app/interfaces/services/ISettingsService";
 export default class SettingsService implements ISettingsService {
 
     public baseUrl: string = "/";
-    public menu: Array<Object> = [
+    public menu: Object[] = [
         {
-            sref: "home", caption: "Home"
+            caption: "Home",
+            sref: "home",
         } ,
         {
-            sref: "componentA", caption: "Component A"
+            caption: "Component A",
+            sref: "componentA",
         } ,
         {
-            sref: "componentB", caption: "Component B"
+            caption: "Component B",
+            sref: "componentB",
         } ,
     ];
 }

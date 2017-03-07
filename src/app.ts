@@ -1,11 +1,11 @@
-import "./imports/libs";
-import "./imports/basic";
-import "./imports/styles";
+import * as angular from "angular";
 import { appHttpConfig } from "./app/config/httpConfig/httpConfig";
 import { provideState } from "./app/config/stateConfig/stateConfig";
-import * as angular from "angular";
+import "./imports/basic";
+import "./imports/libs";
+import "./imports/styles";
 
-const externalModulesNames: Array<any> = [
+const externalModulesNames: any[] = [
   "ui.router",
   "ui.bootstrap",
   "ngAnimate",
@@ -14,10 +14,9 @@ const externalModulesNames: Array<any> = [
   "App.PageSkeleton",
   "App.Home",
   "App.ComponentA",
-  "App.ComponentB"
+  "App.ComponentB",
 ];
-var baseModule: angular.IModule = angular.module("App", externalModulesNames);
+let baseModule: angular.IModule = angular.module("App", externalModulesNames);
 baseModule.config(provideState);
 baseModule.config(appHttpConfig);
 angular.bootstrap(document, [baseModule.name]);
-

@@ -1,14 +1,14 @@
-import {State }from "StateDecorator"; 
+import {State }from "StateDecorator";
 
 @State( {
-    name: "componentA", 
-    component: "componentA", 
-    url: "/componentA"
+    component: "componentA",
+    name: "componentA",
+    url: "/componentA",
 })
 export default class ComponentA implements ng.IComponentOptions {
-        public template:string; 
+        public template: string;
 
         constructor() {
-            this.template = require("./componentA.tpl.html"); 
+            this.template = require("./componentA.tpl.html");
         }
 }

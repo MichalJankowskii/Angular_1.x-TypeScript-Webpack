@@ -1,3 +1,3 @@
 export interface ISettingsService {
-    menu: Array<Object>;
+    menu: Object[];
 }

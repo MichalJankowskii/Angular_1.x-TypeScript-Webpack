@@ -1,7 +1,7 @@
-import MenuController from './menu.controller';
+import MenuController from "./menu.controller";
 
-export default class MenuComponent implements ng.IComponentOptions{
-        public template:string;
+export default class MenuComponent implements ng.IComponentOptions {
+        public template: string;
         public controller: any;
 
         constructor() {
