@@ -4,8 +4,8 @@ module.exports = [
         enforce: 'pre',
         loader: 'tslint-loader',
 		options: {
-			 emitErrors: true,
-			 failOnHint: true,
+			 emitErrors: false,
+			 failOnHint: false,
 		}
     },
     {test: /\.ts(x?)$/, loader: 'ts-loader'},
