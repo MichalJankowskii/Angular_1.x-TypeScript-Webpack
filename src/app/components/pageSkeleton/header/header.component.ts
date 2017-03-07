@@ -1,3 +1,4 @@
+import "./header.scss";
 export default class HeaderComponent implements ng.IComponentOptions{
         public template:string;
         public bindings:any;

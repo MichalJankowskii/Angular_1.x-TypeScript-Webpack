@@ -1,5 +1,5 @@
 import { MenuService } from './service/menuService';
-import SettingsService from '../../shared/services/settings/settingsService';
+import SettingsService from "app/shared/services/settings/settingsService";
 
 export default class MenuController {
     public menuItems : Array<any> ; 

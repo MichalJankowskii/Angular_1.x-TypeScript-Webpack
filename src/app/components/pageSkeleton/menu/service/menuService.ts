@@ -1,4 +1,4 @@
-import SettingsService from '../../../shared/services/settings/settingsService';
+import SettingsService from '../../../../shared/services/settings/settingsService';
 export class MenuService {
     constructor(private settings: SettingsService) {
     }

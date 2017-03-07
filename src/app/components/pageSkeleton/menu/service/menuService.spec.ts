@@ -1,4 +1,4 @@
-import SettingsService from '../../../shared/services/settings/settingsService';
+import SettingsService from '../../../../shared/services/settings/settingsService';
 import {MenuService} from "./menuService";
 
 declare let angular: any;
@@ -7,9 +7,7 @@ describe("Service: MenuService", () => {
     var menuService: MenuService;
     var settings;
     var CreateService = () => {
-
               return new MenuService(settings as SettingsService) ;
-
          };
     beforeEach(angular.mock.module("App"));
 

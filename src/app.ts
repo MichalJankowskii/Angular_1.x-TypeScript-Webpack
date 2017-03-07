@@ -10,14 +10,11 @@ const externalModulesNames: Array<any> = [
   "ui.bootstrap",
   "ngAnimate",
   "ngSanitize",
-  "App.Header",
-  "App.Footer",
-  "App.Home",
-  "App.Error",
   "App.Services",
+  "App.PageSkeleton",
+  "App.Home",
   "App.ComponentA",
-  "App.ComponentB",
-  "App.TopMenu"
+  "App.ComponentB"
 ];
 var baseModule: angular.IModule = angular.module("App", externalModulesNames);
 baseModule.config(provideState);
