@@ -1,12 +1,5 @@
-import {Component } from "angular1_typescript_decorators/Decorators";
 import "./header.scss";
+import * as angular from "angular";
+import HeaderComponent from "app/components/header/header.component";
 
-@Component("App" , "ingHeader" , {
-    template: require("./header.tpl.html"),
-    bindings: {
-        caption: "@"
-    }
-})
-export default class HeaderComponent {
-
-}
+angular.module("App.Header", []).component("ingHeader", new HeaderComponent())

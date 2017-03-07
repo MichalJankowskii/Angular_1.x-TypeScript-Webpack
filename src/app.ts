@@ -12,7 +12,8 @@ const externalModulesNames: Array<any> = [
   "ui.bootstrap",
   "ngAnimate",
   "ngSanitize",
-  "LocalStorageModule"
+  "LocalStorageModule",
+  "App.Header"
 ];
 var baseModule: angular.IModule = angular.module("App", externalModulesNames);
 baseModule.config(provideState);
