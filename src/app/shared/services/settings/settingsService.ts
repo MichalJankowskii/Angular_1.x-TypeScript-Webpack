@@ -1,4 +1,3 @@
-import {Service } from "angular1_typescript_decorators/Decorators";
 import * as angular from "angular";
 
 export default class SettingsService {
