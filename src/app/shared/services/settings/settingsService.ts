@@ -8,7 +8,10 @@ export default class SettingsService {
             sref: "home", caption: "Home"
         } ,
         {
-            sref: "error({message: 'Example Parameter '})" , caption : "Loading Example"
-        }
+            sref: "componentA", caption: "Component A"
+        } ,
+        {
+            sref: "componentB", caption: "Component B"
+        } ,
     ];
 }
