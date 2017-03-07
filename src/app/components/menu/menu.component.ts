@@ -1,4 +1,3 @@
-import { MenuService } from '../../shared/services/menu/menuService';
 import MenuController from './menu.controller';
 
 export default class MenuComponent implements ng.IComponentOptions{

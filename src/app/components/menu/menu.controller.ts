@@ -1,9 +1,10 @@
-import {MenuService } from '../../shared/services/menu/menuService'; 
+import { MenuService } from './service/menuService';
+import SettingsService from '../../shared/services/settings/settingsService';
 
 export default class MenuController {
     public menuItems : Array<any> ; 
     
-    constructor(menuService : MenuService) {
-        this.menuItems = menuService.getMenuItems(); 
+    constructor(settingsService : SettingsService) {
+        this.menuItems = new MenuService(settingsService).getMenuItems(); 
     }
 }
