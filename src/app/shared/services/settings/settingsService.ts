@@ -1,7 +1,6 @@
 import {Service } from "angular1_typescript_decorators/Decorators";
+import * as angular from "angular";
 
-
-@Service("App", "settings")
 export default class SettingsService {
 
     public baseUrl: string = "/";
@@ -11,9 +10,6 @@ export default class SettingsService {
         } ,
         {
             sref: "error({message: 'Example Parameter '})" , caption : "Loading Example"
-        },
-        {
-            sref: "todoList" , caption : "Todo Example"
         }
     ];
 }
