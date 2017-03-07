@@ -31,7 +31,10 @@ Build
 npm install
 npm run build
 ```
-
+# TSLint install
+```sh
+npm install tslint typescript -g
+```
 
 # Features
 
