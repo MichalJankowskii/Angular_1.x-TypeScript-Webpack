@@ -15,7 +15,7 @@ describe("Service: MenuService", () => {
 
      beforeEach(angular.mock.inject(($injector) => {
 
-                settings = $injector.get("settings"); ;
+                settings = $injector.get("settingsService"); ;
          }));
 
     it("should be created and dependency should be inected ", () =>  {
