@@ -1,5 +1,5 @@
 import {Component , Inject} from "angular1_typescript_decorators/Decorators";
-import  {MenuService} from  "app/shared/menuService/menuService";
+import  {MenuService} from  "app/shared/services/menu/menuService";
 
 @Component("App" , "topMenu" , {
     template: require("./menu.tpl.html")

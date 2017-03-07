@@ -1,5 +1,5 @@
 import {MenuService} from "./menuService";
-import SettingsService from "../settingsService/settingsService";
+import SettingsService from "../settings/settingsService";
 
 declare let angular: any;
 

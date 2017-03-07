@@ -1,2 +1,1 @@
-import "./menuService/menuService";
-import "./settingsService/settingsService";
+import "./services/services";
