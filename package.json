@@ -19,8 +19,7 @@
     "angular1_typescript_decorators": "git+https://github.com/bunny1985/Angular1TypescriptDecorators.git",
     "animate.css": "~3.5.2",
     "bootstrap": "3.3.7",
-    "font-awesome": "4.7.0",
-    "grid-resource": "git+https://github.com/bunny1985/NgJqGrid.git"
+    "font-awesome": "4.7.0"
   },
   "devDependencies": {
     "@types/angular": "~1.6.5",

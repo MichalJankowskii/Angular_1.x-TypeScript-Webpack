@@ -1,7 +1,6 @@
 import "./imports/libs";
 import "./imports/basic";
 import "./imports/styles";
-import "grid-resource";
 import { Bootstraper } from "angular1_typescript_decorators/Decorators";
 import { appHttpConfig } from "./app/config/httpConfig/httpConfig";
 import { provideState } from "./app/config/stateConfig/stateConfig";
@@ -13,7 +12,6 @@ const externalModulesNames: Array<any> = [
   "ui.bootstrap",
   "ngAnimate",
   "ngSanitize",
-  "BBGrid",
   "LocalStorageModule"
 ];
 var baseModule: angular.IModule = angular.module("App", externalModulesNames);

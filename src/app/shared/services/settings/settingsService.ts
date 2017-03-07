@@ -13,9 +13,6 @@ export default class SettingsService {
             sref: "error({message: 'Example Parameter '})" , caption : "Loading Example"
         },
         {
-            sref: "grid" , caption : "Grid Example"
-        },
-        {
             sref: "todoList" , caption : "Todo Example"
         }
     ];
