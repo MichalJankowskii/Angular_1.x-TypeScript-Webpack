@@ -14,12 +14,12 @@ page-header>div{
   
   height: 25vh;
 }
-ing-header{
+page-header{
   color: white;
   height:100%;
   
 }
-ing-header .text{
+page-header .text{
      margin: 0;
     position: absolute;
     top: 50%;
@@ -27,6 +27,5 @@ ing-header .text{
     transform: translate(-50%, -50%);
     text-shadow: 0 0 2px #fff, 0 0 2px #fff;
     color: #000;
-    font-size: 4em;;
-  
+    font-size: 4em;
 }

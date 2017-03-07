@@ -14,7 +14,8 @@ const externalModulesNames: Array<any> = [
   "ngSanitize",
   "LocalStorageModule",
   "App.Header",
-  "App.Footer"
+  "App.Footer",
+  "App.Home",
 ];
 var baseModule: angular.IModule = angular.module("App", externalModulesNames);
 baseModule.config(provideState);

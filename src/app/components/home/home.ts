@@ -1,13 +1,4 @@
-import { Component } from "angular1_typescript_decorators/Decorators";
-import { State } from "StateDecorator";
+import HomeComponent from './home.component';
+import * as angular from 'angular';
 
-@Component("App", "home", {
-    template: require("./home.tpl.html")
-})
-@State({
-    name: "home",
-    component: "home",
-    url: "/"
-})
-export default class AppComponent {
-}
+angular.module("App.Home", []).component("home", new HomeComponent())
