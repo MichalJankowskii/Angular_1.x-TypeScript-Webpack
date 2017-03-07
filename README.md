@@ -18,7 +18,7 @@ To run tests
 
 ```sh
 npm test
-
+```
 Others:
 - use angular.mock.module("moduleName") since module is keyword in typescript
 - Open adress founded in npm test output and click Debub - Karma v0.13.22 server started at http://localhost:9876/)
