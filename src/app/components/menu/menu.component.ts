@@ -5,8 +5,8 @@ export default class MenuComponent implements ng.IComponentOptions{
         public template:string;
         public controller: any;
 
-        constructor(menuService: MenuService) {
+        constructor() {
             this.template =  require("./menu.tpl.html");
-            this.controller = new MenuController(menuService);
+            this.controller = MenuController;
         }
 }

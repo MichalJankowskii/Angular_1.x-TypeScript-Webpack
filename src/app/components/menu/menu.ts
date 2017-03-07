@@ -1,14 +1,4 @@
-import {Component , Inject} from "angular1_typescript_decorators/Decorators";
-import  {MenuService} from  "app/shared/services/menu/menuService";
+import MenuComponent from './menu.component';
+import * as angular from 'angular';
 
-@Component("App" , "topMenu" , {
-    template: require("./menu.tpl.html")
-})
-@Inject("menuService")
-export default class TopMenuController {
-    public menuItems: Array<any>;
-    constructor(menuService: MenuService) {
-        this.menuItems = menuService.getMenuItems();
-    }
-
-}
+angular.module("App.TopMenu", []).component("topMenu", new MenuComponent())

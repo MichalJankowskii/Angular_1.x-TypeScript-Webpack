@@ -19,7 +19,8 @@ const externalModulesNames: Array<any> = [
   "App.Error",
   "App.Services",
   "App.ComponentA",
-  "App.ComponentB"
+  "App.ComponentB",
+  "App.TopMenu"
 ];
 var baseModule: angular.IModule = angular.module("App", externalModulesNames);
 baseModule.config(provideState);
