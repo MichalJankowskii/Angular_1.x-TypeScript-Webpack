@@ -1,4 +1,4 @@
 import "animate.css";
-import "app/assets/styles/screen.scss";
+import "assets/styles/screen.scss";
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";

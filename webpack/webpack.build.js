@@ -36,7 +36,6 @@ module.exports = {
             
             { from: './resources/**/*', to: './' }
         ]), 
-
     ],
     module:{
         rules: loaders

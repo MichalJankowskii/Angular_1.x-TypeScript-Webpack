@@ -1,1 +1,1 @@
-import "./services/services";
+import "./services/services.module";
