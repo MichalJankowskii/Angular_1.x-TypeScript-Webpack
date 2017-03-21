@@ -10,8 +10,8 @@ npm start
 
 Then it will automatically open the app in your browser
 
-#Tests
-Locaded in *.spec.ts files.
+# Tests
+Located in *.spec.ts files.
 
 
 To run tests
